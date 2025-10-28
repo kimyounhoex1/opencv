@@ -10,7 +10,7 @@ int main() {
   // OpenCV 되는지 확인, Version으로 확인한다.
 
   Mat img; // Mat 클래스 타입의 변수 선언
-  img = imread("test.jpg"); // 이미지 경로로 읽어 들인다.
+  img = imread("lenna.png"); // 이미지 경로로 읽어 들인다.
   // cv 네임스페이스에 정말 많은 것이 담겨져 있음
 
   if(img.empty()){
