@@ -20,5 +20,5 @@ using namespace cv;
 
 int main() {
   Range r1(0, 10);
-  cout << r1.start << ", " << r1.end << endl;
+  cout << r1.start << ", " << r1.end << endl;  
 }
